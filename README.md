@@ -15,7 +15,7 @@
   <a href="https://github.com/furan917/Loresight-releases">The Loresight app</a>
 </p>
 
-I run games online. Someone says "I cast Rune Ward" or "is that a Cave Ogre?" and I'm the one alt-tabbing through compendium folders while the table waits. Loresight for Foundry is the fix I wanted: it listens to the game, and when it hears the name of anything in your world's compendia, a tile appears in a small window. Click the tile and Foundry opens the sheet. That's the whole trick, and it's a good one.
+I run home games, and at the table I use [Loresight](https://furan917.github.io/Loresight-releases/), an app I built that listens to the game and puts spells, monsters and items one tap away the moment they're spoken. Foundry is my VTT of choice, so I wanted the same thing inside it. This module is that: it listens to the game, and when it hears the name of anything in your world's compendia, a tile appears in a small window. Click the tile and Foundry opens the sheet.
 
 Everything runs **inside your own browser**. The speech model ships in the module, nothing is sent anywhere, and audio is turned into text the instant it's heard and then discarded. There is no account, no server and no recording.
 
