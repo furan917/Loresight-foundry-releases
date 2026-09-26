@@ -8,7 +8,7 @@ compendium entry. It is designed so that everything happens **in your own browse
 ## The short version
 
 - **No accounts. No servers. No network.** The module has no backend and makes no requests of its
-  own. The speech model ships inside the module and is fetched once from your Foundry server.
+  own. The speech recogniser ships inside the module and is fetched once from your Foundry server.
 - **We do not collect, transmit, sell, or share any personal data.** There is no analytics, no
   telemetry, no advertising, and no third-party tracking.
 - **Nothing you say is stored.** Audio is processed in memory and discarded. The module keeps no

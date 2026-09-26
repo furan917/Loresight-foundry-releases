@@ -17,7 +17,7 @@
 
 I run home games, and at the table I use [Loresight](https://furan917.github.io/Loresight-releases/), an app I built that listens to the game and puts spells, monsters and items one tap away the moment they're spoken. Foundry is my VTT of choice, so I wanted the same thing inside it. This module is that: it listens to the game, and when it hears the name of anything in your world's compendia, a tile appears in a small window. Click the tile and Foundry opens the sheet.
 
-Everything runs **inside your own browser**. The speech model ships in the module, nothing is sent anywhere, and audio is turned into text the instant it's heard and then discarded. There is no account, no server and no recording.
+Everything runs **inside your own browser**. The speech recogniser ships in the module, nothing is sent anywhere, and audio is turned into text the instant it's heard and then discarded. There is no account, no server and no recording.
 
 **Loresight is free and will never be for sale.** If anyone asks you to pay for it, it is not Loresight. The only official downloads are the Releases page of this repository and the Foundry package browser.
 
@@ -56,14 +56,14 @@ https://github.com/furan917/Loresight-foundry-releases/releases/latest/download/
 
 3. Enable **Loresight for Foundry VTT** in your world's module settings.
 
-The download is about 170 MB because the speech model comes with it. That's a one-time install; nothing is fetched after that.
+The download is about 170 MB because the speech recogniser comes with it. That's a one-time install; nothing is fetched after that.
 
 You need Foundry VTT 13 or newer. Listening works in the Foundry desktop app and in Chrome, Edge and other Chromium browsers. Each player who wants tiles turns listening on for themselves; it is not GM-only.
 
 ## Using it
 
 1. Click the ear icon under the token controls, or press **Alt+L**. The first time, Foundry will ask for microphone access and Loresight will ask you to confirm that audio stays on your machine.
-2. The Loresight window opens and says what it's hearing. Give it a few seconds to load the speech model.
+2. The Loresight window opens and says what it's hearing. Give it a few seconds to load the speech recogniser.
 3. Play. Tiles appear as names are spoken, newest at the top. Click one to open the sheet, pin the ones you want to keep, or clear the rest.
 
 **Hearing the whole table.** If your group uses Foundry's built-in voice chat, Loresight mixes in every connected player automatically and the window says "Hearing the table". If you talk over Discord instead, open the module settings and set **Also listen to** to a virtual audio device carrying the call. On Windows and macOS that means installing a virtual audio cable of your choice and routing Discord's output through it. On Linux, run this once before you start listening and pick "Loresight line-in" from the list:
